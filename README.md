@@ -1,4 +1,5 @@
-[领域及阅读列表](https://dxr54gq30qo.feishu.cn/wiki/UQnJw306eivn4vk3OwtcD5NUndb?from=from_copylink)
+[领域及阅读列表](https://dxr54gq30qo.feishu.cn/wiki/UQnJw306eivn4vk3OwtcD5NUndb?from=from_copylink)\
+[wxf\`s 知识网](https://www.mubu.com/doc/Jadku2WAXC)
 
 - [ ] 电气设计规范
 - [x] 接地
@@ -6,10 +7,8 @@
 - [ ] 机加工方法
 - [ ] 大模型(可加快学习速度)
 
-
 # draw
 [download opengl](https://opengl.gpuinfo.org/download.php)
-
 
 
 # node.js
@@ -17,6 +16,17 @@
 [linux学习路线](https://www.bilibili.com/opus/498161531410328699)
 # docker
 # c++
+## [c++基础](Tech/C++%20基础.md)
+## [c++内存视角](Tech/C++%20内存视角.md)
+## [c++多线程](Tech/C++%20多线程.md)
+## [c++函数指针](Tech/C++%20函数指针.md)
+## [c++性能](Tech/C++%20性能.md)
+## [c++类 对象模型 类构造及生命周期](Tech/C++%20类%20对象模型%20类构造及生命周期.md)
+## [c++类 基础](Tech/C++%20类%20基础.md)
+## [c++类 设计模式](Tech/C++%20类%设计模式.md)
+## [c++template](Tech/C++%20template.md)
+
+
 # qt
 - qt version history \<trace\> \
 [qt history](https://wiki.qt.io/Qt_History)\
@@ -25,6 +35,11 @@
 [qt4 version](https://wiki.qt.io/Qt_4_versions)\
 [ABI symbols qt](https://abi-laboratory.pro/index.php?view=timeline&l=qt)
 
+
+[qt offline download](https://www.qt.io/offline-installers)
+
+[qt style sheet](https://doc.qt.io/qt-6/stylesheet-syntax.html#conflict-resolution)
+[ref qss](https://www.cnblogs.com/linuxAndMcu/p/11039769.html#_label0)
 
 # git
 
