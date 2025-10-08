@@ -1,5 +1,33 @@
 ![](/skins/bj2008/images/fire.gif) [git飞行手册](https://www.cnblogs.com/apeishuai/articles/18778288 "发布于 2025-03-18 09:40")
 
+
+[What makes Git so hard to use? | HighFlux](https://www.highflux.io/blog/what-makes-git-hard-to-use)\
+/Entered on/ [2023-01-06 周五 12:45]
+
+```
+git config --global user.name "apeishuai"
+git config --global user.email "whswhswhs66@gmail.com"
+```
+```
+git submodule \\列出所有子模块信息\
+git submodule status \\查看子模块状态
+
+git submodule add <path> <url> \\添加submodule子模块
+
+git submodule set-url <path> <new-repository-url> 
+
+.gitmodule\
+[submodule "Shell"]\
+    path = Shell\
+    url = <正确的URL>
+
+git submodule init \\根据.gitmodules文件中的配置初始化和更新子模块。\
+git submodule update \\同步子模块URL：如果你修改了.gitmodules文件中的URL，使用git submodule sync命令将新的URL更新到.git/config文件中：\
+git submodule sync \\确保.git/config文件中的子模块配置与.gitmodules文件保持一致。\
+git rm --cached Shell \\从Git的索引中移除子模块，但保留在工作目录中
+
+vim .gitignore
+```
 https://vikingz.me/git-pro/  
 https://github.com/k88hudson/git-flight-rules/blob/master/README_zh-CN.md
 

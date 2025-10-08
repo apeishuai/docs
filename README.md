@@ -7,27 +7,16 @@
 - [ ] 机加工方法
 - [ ] 大模型(可加快学习速度)
 
+## [Pyside6](Tech/Pyside6%20index.md)
+
+## QML
+
 # draw
 [download opengl](https://opengl.gpuinfo.org/download.php)
 
+# [C++](Tech/C++%20index.md)
 
-# node.js
-# Linux
-[linux学习路线](https://www.bilibili.com/opus/498161531410328699)
-# docker
-# c++
-## [c++基础](Tech/C++%20基础.md)
-## [c++内存视角](Tech/C++%20内存视角.md)
-## [c++多线程](Tech/C++%20多线程.md)
-## [c++函数指针](Tech/C++%20函数指针.md)
-## [c++性能](Tech/C++%20性能.md)
-## [c++类 对象模型 类构造及生命周期](Tech/C++%20类%20对象模型%20类构造及生命周期.md)
-## [c++类 基础](Tech/C++%20类%20基础.md)
-## [c++类 设计模式](Tech/C++%20类%设计模式.md)
-## [c++template](Tech/C++%20template.md)
-
-
-# qt
+# QT
 - qt version history \<trace\> \
 [qt history](https://wiki.qt.io/Qt_History)\
 [qt version history](https://wiki.qt.io/Qt_version_history)\
@@ -35,41 +24,13 @@
 [qt4 version](https://wiki.qt.io/Qt_4_versions)\
 [ABI symbols qt](https://abi-laboratory.pro/index.php?view=timeline&l=qt)
 
-
 [qt offline download](https://www.qt.io/offline-installers)
 
 [qt style sheet](https://doc.qt.io/qt-6/stylesheet-syntax.html#conflict-resolution)
 [ref qss](https://www.cnblogs.com/linuxAndMcu/p/11039769.html#_label0)
 
-# git
 
-[What makes Git so hard to use? | HighFlux](https://www.highflux.io/blog/what-makes-git-hard-to-use)\
-/Entered on/ [2023-01-06 周五 12:45]
-
-```
-git config --global user.name "apeishuai"
-git config --global user.email "whswhswhs66@gmail.com"
-```
-```
-git submodule \\列出所有子模块信息\
-git submodule status \\查看子模块状态
-
-git submodule add <path> <url> \\添加submodule子模块
-
-git submodule set-url <path> <new-repository-url> 
-
-.gitmodule\
-[submodule "Shell"]\
-    path = Shell\
-    url = <正确的URL>
-
-git submodule init \\根据.gitmodules文件中的配置初始化和更新子模块。\
-git submodule update \\同步子模块URL：如果你修改了.gitmodules文件中的URL，使用git submodule sync命令将新的URL更新到.git/config文件中：\
-git submodule sync \\确保.git/config文件中的子模块配置与.gitmodules文件保持一致。\
-git rm --cached Shell \\从Git的索引中移除子模块，但保留在工作目录中
-
-vim .gitignore
-```
+# [Git](Tech/soft%20git飞行手册)
 
 # Appendix A shortcut
 功能： Prettier是一款非常流行的代码格式化工具，支持多种语言，包括JSON。它可以自动格式化JSON代码，使其符合特定的代码风格规范。\
