@@ -7,14 +7,27 @@
 - [ ] 机加工方法
 - [ ] 大模型(可加快学习速度)
 
+# Nagivation
+[历史气温数据查询](https://historicaltemperature.org/)\
+[院校三千所](https://laosheng.top/fuwu/yuanxiao.html)\
+[cost of living](https://www.numbeo.com/cost-of-living/)\
+[趋势动物 小程序]()
+
+
+
 ## [Pyside6](Tech/Pyside6%20index.md)
 
 ## QML
+
+# [新代-快速开发](Tech/新代-快速开发.md)
+# [新代](Tech/新代.md)
 
 # draw
 [download opengl](https://opengl.gpuinfo.org/download.php)
 
 # [C++](Tech/C++%20index.md)
+
+# [web开发](Tech/web开发.md)
 
 # QT
 - qt version history \<trace\> \
